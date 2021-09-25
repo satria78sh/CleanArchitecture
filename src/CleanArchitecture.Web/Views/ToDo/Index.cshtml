@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "ToDo List";
+}
+@model CleanArchitecture.Core.Entities.Foo
+<h2>Update Experiment</h2>
+<ul>
+    <li>Updated Entity State. If update worked, then Name should go from Steve to Scott, and if nested update worked, then Bar.Number should have increased from 5 to 6.</li>
+    <li>(Foo.Name - @Model.Name | Foo.Bar.Number: @Model.Bar.Number)</li>
+</ul>
